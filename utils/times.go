@@ -3,5 +3,5 @@ package utils
 import "time"
 
 func PrintTime() {
-	println(time.Now())
+	println(time.Now().String())
 }
